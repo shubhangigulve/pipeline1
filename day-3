@@ -1,0 +1,18 @@
+sudo su -
+1  cat /etc/passwd
+    2  ls -l
+    3  clear
+    4  ls -l
+    5  apt update -y
+    6  clear
+    7  netstat
+    8  lsof -i -P -n | grep LISTEN
+    9  apt install apache2 -y
+   10  clear
+   11  lsof -i -P -n | grep LISTEN
+   12  pwd
+   13  cd /var/www/html
+   14  pwd
+   15  ls -l
+   16  vi my-page.html
+   17  history
